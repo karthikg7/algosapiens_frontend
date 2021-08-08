@@ -1,0 +1,238 @@
+@charset "utf-8";
+@import "post.css";
+
+
+* {
+	padding:0;
+	margin:0;
+	background-color:;
+	width:100%;
+	font-family:monospace;
+  }
+
+
+
+  .container {
+	  margin:0;
+	  padding:0;
+	  width:100%;
+	  height:100%;
+
+  }
+
+  .box-1 {
+	width:100%;
+	height:25px;
+	background:;
+
+  }
+
+  .ethos h3{
+	text-align:center;
+	margin-top:10px;	
+  }
+  .box-2 {
+	margin:0;
+	padding:0;
+	width:100%;/* auto*/
+	height:70px;
+	/*background-color:white;*/
+	border-bottom:2px solid ;
+	text-align:center;
+	position:-webkit-sticky;
+	position:sticky;
+	top:0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to left, rgba(0,0,0,0.99) 0px, #000000 100%) repeat scroll 0 0 !important;
+  }
+
+  .tp-bar {
+	display:flex;
+	height:100%;
+	align-items:center;
+  }
+
+  .tp-bar-itm-1 {
+	  flex:1;
+  }
+
+  .tp-bar-itm-2 {
+	  color:white;
+	  flex:2;
+  }
+
+  .tp-bar-itm-3 {
+	  flex:1;
+	  color:#ffffff;
+  }
+
+
+  .respon {
+	  display:flex;
+	  justify-content:center;
+  }
+  .box-3 {
+	  height:auto;
+	  width:100%;
+	  background-color:#ffffff;
+	  text-align:center;
+  }
+
+  .box-4 {
+	  width:auto;
+	  margin:10px;
+	  padding;10px;
+/*	  border:2px solid black;*/
+
+  }
+
+  .main-pg-pst {
+	  width:auto;
+	  margin:3px;
+	  padding:3px;
+	  display:flex;
+	  flex-wrap:wrap; 
+	  justify-content:space-around;
+/*	  border:2px solid yellow;*/
+  }
+
+  a:link{
+	color:black;
+	/*background-color:red;*/
+	text-decoration:none;
+  }
+
+  a:visited {
+	  color:blue;
+	  background-color:transparent;
+	  text-decoration:none;
+  } 
+
+  .post {
+	  flex-grow:1 0 25%;
+	  width:250px;
+	  margin:3px;
+	  margin-bottom:20px;
+	  padding:3px;
+	 /* border:2px solid #54595F;*/
+	  box-sizing:border-box;
+	  
+	   
+
+  }
+  .pst-card {
+	width:100%;
+	display:block;
+	text-align:center;
+  }
+
+  .pst-img {
+	  width:100%;
+	  height:100%;
+	  padding:0px;
+	  margin:0px;
+	  padding-top:0;
+	  margin-top:0;
+	  text-align:center;
+/*	  border:2px solid green;*/
+  }
+
+  .pt-con {
+	  display:block;
+  }
+  .pt-tle {
+	  text-align:center;
+  }
+
+  .pst-meta {
+	  padding:5px;
+	  display:none;/*flex*/
+  }
+  .share-pst {
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+  }
+
+  .box-5 {
+	  margin:3px;
+	  padding:3px;
+	  width:auto;
+	 /* border:2px solid #000000;*/
+	  height:auto;
+  }
+
+  .rel-list {
+	  max-width:500px;
+  }
+  .rel-lin h1 {
+	  text-align:center;
+  }
+  .rel-pst {
+	  width:97%;
+	  padding:3px;
+	  margin:3px;
+	  /*border:3px solid #5455AF;*/
+	  display:flex;
+	  border-radius:3px;
+	  margin-bottom:10px;
+	  box-sizing:border-box;
+  }
+
+  .rel-img {
+	  width:100%;
+	  margin-right:7px;
+
+  }
+  .rel-tle {
+	  width:auto;
+	  display:inline-block;
+  }
+  .box-8 {
+	height:100px;
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-size:2em;
+	bottom:0px;
+  }
+
+  @media only screen and (max-width:768px){
+
+	  .respon {
+		  display:flex;
+		  flex-direction:column; 
+	  }
+	  .pst-card{
+	
+  }
+  .main-pg-pst {
+	  justify-content:center;
+  }
+  .post {
+	  width:250px;
+	  margin-bottom:7px;
+  }
+  .pst-img {
+	  padding:0;
+	  margin:0;
+	  width:100%;
+
+  }
+
+  .pt-tle h2 {
+	  font-size:20px;
+  }
+  .pt-con {
+	  height:10%;
+	  display:block;
+  }
+
+  .pst-meta {
+	   
+  }
+  .share-pst {
+	  display:none;
+  } 
+}
+

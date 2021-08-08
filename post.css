@@ -1,0 +1,27 @@
+.pst-pg-dtl {
+	padding:3px;
+	margin:3px;
+	border:2px solid black;
+}
+.pst-pg-tle {
+	padding:3px;
+	margin:3px;
+}
+.pst-pg-img img{
+	padding:3px;
+	margin:3px;
+	width:auto;
+	height:100px;
+	
+}
+.pst-pg-share {
+
+}
+.pst-pg-con {
+	padding:10px;
+	margin:3px;
+	box-sizing:border-box;
+	font-size:16px;
+	font-family:sans-serif;
+	text-align:left;
+}
